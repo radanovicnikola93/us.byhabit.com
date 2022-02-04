@@ -1,0 +1,30 @@
+{
+  "name": "us.byhabit.com-clone-site",
+  "version": "1.0.0",
+  "description": "Cloning us.byhabit.com page for educational purposes and learning frontend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radanovicnikola93/us.byhabit.clone-site.git"
+  },
+  "keywords": [
+    "awwwards",
+    "frontend",
+    "byhabit",
+    "js",
+    "css",
+    "sass"
+  ],
+  "author": "Nikola Radanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radanovicnikola93/us.byhabit.clone-site/issues"
+  },
+  "homepage": "https://github.com/radanovicnikola93/us.byhabit.clone-site#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
