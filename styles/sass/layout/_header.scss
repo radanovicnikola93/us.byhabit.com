@@ -40,7 +40,54 @@
                 h2::after {
                     content: " >";
                     transform: rotate(90deg);
-                    
+
+                }
+            }
+        }
+    }
+    .slogan {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        font-family: 'Rubik Mono One',
+        sans-serif;
+        .main-slogan {
+            h1 {
+                height: 10rem;
+                text-align: center;
+                font-size: 13vw;
+                text-transform: uppercase;
+                font-weight: 400;
+                letter-spacing: -1rem;
+            }
+        }
+        .sub-slogan {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            h2 {
+                font-size: 2vw;
+                text-transform: uppercase;
+            }
+            button {
+                margin: 0 2rem;
+                padding: 5px;
+                background: transparent;
+                border: 1px solid $white;
+                border-radius: 1rem;
+                a {
+                    text-decoration: none;
+                    h3 {
+                        text-transform: uppercase;
+                        font-size: 2vw;
+                        color: $white;
+                    }
+                    h3::after {
+                        content: "->";
+                    }
                 }
             }
         }
