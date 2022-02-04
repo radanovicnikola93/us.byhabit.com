@@ -1,1 +1,84 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,900;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Rubit", sans-serif; }
+
+.page-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://byhabit.com/wp-content/uploads/2021/06/HBH-Cover-1024x576-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  .page-header .main-nav {
+    padding: 1.5rem;
+    height: 4.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent; }
+    .page-header .main-nav .logo {
+      display: flex; }
+      .page-header .main-nav .logo div {
+        border: 1.5px solid #fff;
+        padding: 0.7rem; }
+        .page-header .main-nav .logo div h2 {
+          font-size: 0.6rem;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 500; }
+    .page-header .main-nav .menus {
+      display: flex; }
+      .page-header .main-nav .menus div {
+        padding-left: 1.5rem; }
+        .page-header .main-nav .menus div h2 {
+          font-family: 'Anton', sans-serif;
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-weight: 500; }
+        .page-header .main-nav .menus div h2::after {
+          content: " >";
+          transform: rotate(90deg); }
+  .page-header .slogan {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-family: 'Rubik Mono One', sans-serif; }
+    .page-header .slogan .main-slogan h1 {
+      text-align: center;
+      font-size: 13vw;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: -1rem; }
+    .page-header .slogan .sub-slogan {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      .page-header .slogan .sub-slogan h2 {
+        font-size: 2vw;
+        text-transform: uppercase; }
+      .page-header .slogan .sub-slogan button {
+        margin: 0 2rem;
+        padding: 4px 20px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 1rem; }
+        .page-header .slogan .sub-slogan button a {
+          text-decoration: none; }
+          .page-header .slogan .sub-slogan button a h3 {
+            text-transform: uppercase;
+            font-size: 1vw;
+            color: #fff; }
+          .page-header .slogan .sub-slogan button a h3::after {
+            content: "->"; }
