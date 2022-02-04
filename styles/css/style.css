@@ -170,3 +170,21 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8rem;
     text-align: center; }
+
+.product-header {
+  height: 100vh;
+  width: 100%;
+  background: url("https://images.ctfassets.net/3s274le3wbm5/71mo4gK3PwzJYhQuB88rpd/8abd4d76bea904b6eabd56ed0b4ea8a8/HBH___CREATIVE_MAY_HIGHRES-9_copy.jpg?w=1920&h=1200&fit=fill&fm=webp&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .product-header .slogan {
+    width: 100%;
+    position: absolute;
+    font-family: 'Rubik Mono One', sans-serif; }
+    .product-header .slogan .main-slogan h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 8vw;
+      text-transform: uppercase;
+      font-weight: 400; }
