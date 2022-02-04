@@ -57,7 +57,7 @@ body {
     font-family: 'Rubik Mono One', sans-serif; }
     .page-header .slogan .main-slogan h1 {
       text-align: center;
-      font-size: 13vw;
+      font-size: 12vw;
       text-transform: uppercase;
       font-weight: 400;
       letter-spacing: -1rem; }
@@ -81,4 +81,4 @@ body {
             font-size: 1vw;
             color: #fff; }
           .page-header .slogan .sub-slogan button a h3::after {
-            content: "->"; }
+            content: " >"; }
