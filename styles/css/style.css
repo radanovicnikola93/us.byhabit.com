@@ -83,24 +83,27 @@ body {
           .page-header .slogan .sub-slogan button a h3::after {
             content: " >"; }
 
+.first-note .note {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem; }
+  .first-note .note .lightning-img {
+    margin-bottom: 3rem; }
+    .first-note .note .lightning-img img {
+      width: 2.5rem; }
+  .first-note .note .notes p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    text-align: center; }
+
 .gallery {
-  height: 250vh;
+  height: 350vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-  .gallery .note {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .gallery .note .lightning-img {
-      margin-bottom: 3rem; }
-      .gallery .note .lightning-img img {
-        width: 2.5rem; }
-    .gallery .note .notes p {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1.8rem;
-      text-align: center; }
   .gallery .container {
     height: 75%; }
     .gallery .container .content {

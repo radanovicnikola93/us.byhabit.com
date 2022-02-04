@@ -1,0 +1,25 @@
+.first-note {
+    .note {
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+
+        .lightning-img {
+            margin-bottom: 3rem;
+
+            img {
+                width: 2.5rem;
+            }
+        }
+
+        .notes {
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.8rem;
+                text-align: center;
+            }
+        }
+    }
+}
