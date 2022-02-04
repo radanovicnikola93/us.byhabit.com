@@ -1,16 +1,13 @@
 .gallery {
-    height: 350vh;
+    margin-top: 10rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
     .container {
-        height: 75%;
         .content {
             display: flex;
-            flex-wrap: wrap-reverse;
-            width: 100%;
+            flex-wrap: wrap;
             margin-bottom: 1rem;
             .photo {
                 flex: 45%;
@@ -19,7 +16,7 @@
                 justify-content: center;
                 img {
                     width: 90%;
-                    height: auto;
+                    
                 }
             }
             .content-text {
