@@ -1,0 +1,43 @@
+.second-note {
+    .note {
+        background-color: #9dacd8;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+
+        .lightning-img {
+            margin: 3rem 0;
+            img {
+                width: 2.5rem;
+            }
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            h2 {
+                font-family: 'Rubik Mono One',
+                sans-serif;
+                color: $dark;
+                word-spacing: -1.5rem;
+                letter-spacing: -4px;
+                font-size: 3rem;
+                text-transform: uppercase;
+            }
+            p {
+                margin-left: 1rem;
+                font-size: 2rem;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+        .notes {
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.8rem;
+                text-align: center;
+            }
+        }
+    }
+}
