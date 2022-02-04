@@ -241,3 +241,39 @@ body {
             content: " >"; }
   .product-gallery .container:nth-of-type(2) {
     flex-direction: row-reverse; }
+
+.product-jumbotron {
+  height: 90vh;
+  width: 100%;
+  background: url("../../../images/product-multi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  color: white; }
+  .product-jumbotron .product-location {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .product-jumbotron .product-location img {
+      width: 20px; }
+    .product-jumbotron .product-location p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.5rem;
+      font-weight: 100; }
+  .product-jumbotron .product-ingredients .ingredient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem; }
+    .product-jumbotron .product-ingredients .ingredient img {
+      width: 10px; }
+    .product-jumbotron .product-ingredients .ingredient h2 {
+      font-family: 'Rubik Mono One', sans-serif;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-transform: uppercase; }
