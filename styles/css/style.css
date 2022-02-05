@@ -277,3 +277,72 @@ body {
       font-weight: 100;
       font-size: 1.4rem;
       text-transform: uppercase; }
+
+.shop-products-gallery {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem; }
+  .shop-products-gallery .headers h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #343a40;
+    word-spacing: -1.5rem;
+    letter-spacing: -2px;
+    font-size: 3rem;
+    text-transform: uppercase; }
+  .shop-products-gallery .headers .sub-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .shop-products-gallery .headers .sub-header h2 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2rem; }
+    .shop-products-gallery .headers .sub-header button {
+      padding: 4px 20px;
+      background: transparent;
+      border: 1px solid black;
+      border-radius: 1rem; }
+      .shop-products-gallery .headers .sub-header button a {
+        text-decoration: none; }
+        .shop-products-gallery .headers .sub-header button a h3 {
+          text-transform: uppercase;
+          font-size: 1vw;
+          color: black; }
+        .shop-products-gallery .headers .sub-header button a h3::after {
+          content: " >"; }
+  .shop-products-gallery .products {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap; }
+    .shop-products-gallery .products .container {
+      flex: 33.3%; }
+      .shop-products-gallery .products .container video {
+        width: 100%; }
+      .shop-products-gallery .products .container h2 {
+        font-family: 'Rubik Mono One', sans-serif;
+        color: #343a40;
+        word-spacing: -0.5rem;
+        letter-spacing: -1px;
+        font-size: 2rem;
+        text-transform: uppercase; }
+      .shop-products-gallery .products .container h3 {
+        font-family: 'Rubik Mono One', sans-serif;
+        color: #343a40;
+        word-spacing: -0.5rem;
+        letter-spacing: -1px;
+        font-size: 1.2rem;
+        text-transform: uppercase; }
+      .shop-products-gallery .products .container button {
+        padding: 4px 20px;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 1rem; }
+        .shop-products-gallery .products .container button a {
+          text-decoration: none; }
+          .shop-products-gallery .products .container button a h3 {
+            text-transform: uppercase;
+            font-size: 1vw;
+            color: black; }
+          .shop-products-gallery .products .container button a h3::after {
+            content: " >"; }
