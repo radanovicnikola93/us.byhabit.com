@@ -135,6 +135,8 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.1rem;
         color: #343a40; }
+  .gallery .container .content:nth-of-type(even) {
+    flex-direction: row-reverse; }
 
 .second-note .note {
   background-color: #9dacd8;
