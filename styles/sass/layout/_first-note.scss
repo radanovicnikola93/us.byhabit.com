@@ -8,9 +8,21 @@
 
         .lightning-img {
             margin-bottom: 3rem;
-
             img {
-                width: 2.5rem;
+                width: 2rem;
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(10deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
             }
         }
 
