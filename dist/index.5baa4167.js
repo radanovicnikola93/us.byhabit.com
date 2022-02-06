@@ -522,7 +522,11 @@ function hmrAcceptRun(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _smoothScrollbar = require("smooth-scrollbar");
 var _smoothScrollbarDefault = parcelHelpers.interopDefault(_smoothScrollbar);
-_smoothScrollbarDefault.default.init(document.querySelector('.my-scrollbar'));
+var options = {
+    'damping': 0.01,
+    'alwaysShowTracks': true
+};
+_smoothScrollbarDefault.default.init(document.querySelector('#my-scrollbar'), options);
 
 },{"smooth-scrollbar":"7azJf","@parcel/transformer-js/src/esmodule-helpers.js":"fD7H8"}],"7azJf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
