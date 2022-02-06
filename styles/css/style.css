@@ -93,9 +93,9 @@ body {
     margin-bottom: 3rem; }
     .first-note .note .lightning-img img {
       width: 2rem;
-      animation: blink 1s infinite; }
+      animation: light 1s infinite; }
 
-@keyframes blink {
+@keyframes light {
   0% {
     transform: rotate(0deg); }
   50% {
