@@ -44,8 +44,24 @@
                 }
             };
         }
-        .content:nth-of-type(even) {
+
+        .content:nth-of-type(2) {
             flex-direction: row-reverse;
+            position: relative;
+            .content-text {
+                flex: 30%;
+                p {
+                    width: 50%;
+                }
+            }
+            .photo {
+                img {
+                    position: absolute;
+                    bottom: 70%;
+                    right: 5%;
+                    width: 30%;
+                }
+            }
         }
     }
 }

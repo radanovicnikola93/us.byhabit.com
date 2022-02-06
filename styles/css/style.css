@@ -144,8 +144,18 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.1rem;
         color: #343a40; }
-  .gallery .container .content:nth-of-type(even) {
-    flex-direction: row-reverse; }
+  .gallery .container .content:nth-of-type(2) {
+    flex-direction: row-reverse;
+    position: relative; }
+    .gallery .container .content:nth-of-type(2) .content-text {
+      flex: 30%; }
+      .gallery .container .content:nth-of-type(2) .content-text p {
+        width: 50%; }
+    .gallery .container .content:nth-of-type(2) .photo img {
+      position: absolute;
+      bottom: 70%;
+      right: 5%;
+      width: 30%; }
 
 .second-note .note {
   background-color: #9dacd8;
