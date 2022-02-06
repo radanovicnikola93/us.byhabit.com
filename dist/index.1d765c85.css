@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600;1,700;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Anton&display=swap";
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
-
 body {
   font-family: "Rubit", sans-serif; }
-
 .page-header {
   width: 100%;
   height: 100vh;
@@ -17,37 +15,37 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff; }
-  .page-header .main-nav {
+.page-header .main-nav {
     padding: 1.5rem;
     height: 4.9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent; }
-    .page-header .main-nav .logo {
+.page-header .main-nav .logo {
       display: flex; }
-      .page-header .main-nav .logo div {
+.page-header .main-nav .logo div {
         border: 1.5px solid #fff;
         padding: 0.7rem; }
-        .page-header .main-nav .logo div h2 {
+.page-header .main-nav .logo div h2 {
           font-size: 0.6rem;
           text-transform: uppercase;
           letter-spacing: 1px;
           font-weight: 500; }
-    .page-header .main-nav .menus {
+.page-header .main-nav .menus {
       display: flex; }
-      .page-header .main-nav .menus div {
+.page-header .main-nav .menus div {
         padding-left: 1.5rem; }
-        .page-header .main-nav .menus div h2 {
+.page-header .main-nav .menus div h2 {
           font-family: 'Anton', sans-serif;
           font-size: 1.2rem;
           text-transform: uppercase;
           letter-spacing: 3px;
           font-weight: 500; }
-        .page-header .main-nav .menus div h2::after {
+.page-header .main-nav .menus div h2::after {
           content: " >";
           transform: rotate(90deg); }
-  .page-header .slogan {
+.page-header .slogan {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -55,46 +53,44 @@ body {
     flex-direction: column;
     margin-bottom: 1rem;
     font-family: 'Rubik Mono One', sans-serif; }
-    .page-header .slogan .main-slogan h1 {
+.page-header .slogan .main-slogan h1 {
       text-align: center;
       font-size: 12vw;
       text-transform: uppercase;
       font-weight: 400;
       letter-spacing: -1rem; }
-    .page-header .slogan .sub-slogan {
+.page-header .slogan .sub-slogan {
       display: flex;
       align-items: center;
       justify-content: flex-end; }
-      .page-header .slogan .sub-slogan h2 {
+.page-header .slogan .sub-slogan h2 {
         font-size: 2vw;
         text-transform: uppercase; }
-      .page-header .slogan .sub-slogan button {
+.page-header .slogan .sub-slogan button {
         margin: 0 2rem;
         padding: 4px 20px;
         background: transparent;
         border: 1px solid #fff;
         border-radius: 1rem; }
-        .page-header .slogan .sub-slogan button a {
+.page-header .slogan .sub-slogan button a {
           text-decoration: none; }
-          .page-header .slogan .sub-slogan button a h3 {
+.page-header .slogan .sub-slogan button a h3 {
             text-transform: uppercase;
             font-size: 1vw;
             color: #fff; }
-          .page-header .slogan .sub-slogan button a h3::after {
+.page-header .slogan .sub-slogan button a h3::after {
             content: " >"; }
-
 .first-note .note {
   height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4rem; }
-  .first-note .note .lightning-img {
+.first-note .note .lightning-img {
     margin-bottom: 3rem; }
-    .first-note .note .lightning-img img {
+.first-note .note .lightning-img img {
       width: 2rem;
       animation: blink 1s infinite; }
-
 @keyframes blink {
   0% {
     transform: rotate(0deg); }
@@ -102,38 +98,37 @@ body {
     transform: rotate(10deg); }
   100% {
     transform: rotate(0deg); } }
-  .first-note .note .notes p {
+.first-note .note .notes p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8rem;
     text-align: center; }
-
 .gallery {
   margin-top: 10rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-  .gallery .container {
+.gallery .container {
     padding: 2rem; }
-    .gallery .container .content {
+.gallery .container .content {
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 1rem; }
-      .gallery .container .content .photo {
+.gallery .container .content .photo {
         flex: 45%;
         display: flex;
         align-items: center;
         justify-content: center; }
-        .gallery .container .content .photo img {
+.gallery .container .content .photo img {
           width: 100%; }
-      .gallery .container .content .content-text {
+.gallery .container .content .content-text {
         flex: 55%;
         line-height: 1; }
-        .gallery .container .content .content-text h4 {
+.gallery .container .content .content-text h4 {
           font-family: 'Times New Roman', Times, serif;
           font-size: 1.7rem;
           font-weight: 100; }
-        .gallery .container .content .content-text h2 {
+.gallery .container .content .content-text h2 {
           font-family: 'Rubik Mono One', sans-serif;
           color: #343a40;
           word-spacing: -1.5rem;
@@ -141,50 +136,49 @@ body {
           font-size: 3rem;
           text-transform: uppercase;
           margin-left: -3px; }
-        .gallery .container .content .content-text p {
+.gallery .container .content .content-text p {
           font-family: Arial, Helvetica, sans-serif;
           font-size: 1.1rem;
           color: #343a40; }
-    .gallery .container .content:nth-of-type(1) .content-text {
+.gallery .container .content:nth-of-type(1) .content-text {
       padding-left: 10px; }
-      .gallery .container .content:nth-of-type(1) .content-text p {
+.gallery .container .content:nth-of-type(1) .content-text p {
         width: 30%;
         padding-left: 0; }
-    .gallery .container .content:nth-of-type(2) {
+.gallery .container .content:nth-of-type(2) {
       flex-direction: row-reverse;
       position: relative; }
-      .gallery .container .content:nth-of-type(2) .content-text {
+.gallery .container .content:nth-of-type(2) .content-text {
         flex: 30%; }
-        .gallery .container .content:nth-of-type(2) .content-text p {
+.gallery .container .content:nth-of-type(2) .content-text p {
           width: 50%; }
-      .gallery .container .content:nth-of-type(2) .photo img {
+.gallery .container .content:nth-of-type(2) .photo img {
         position: absolute;
         bottom: 70%;
         right: 0;
         width: 30%; }
-    .gallery .container .content:nth-of-type(3) {
+.gallery .container .content:nth-of-type(3) {
       position: relative; }
-      .gallery .container .content:nth-of-type(3) .content-text {
+.gallery .container .content:nth-of-type(3) .content-text {
         flex: 20%; }
-      .gallery .container .content:nth-of-type(3) .photo {
+.gallery .container .content:nth-of-type(3) .photo {
         flex: 70%; }
-        .gallery .container .content:nth-of-type(3) .photo img {
+.gallery .container .content:nth-of-type(3) .photo img {
           position: absolute;
           bottom: -5%;
           right: 28%;
           width: 30%; }
-    .gallery .container .content:nth-of-type(4) .content-text {
+.gallery .container .content:nth-of-type(4) .content-text {
       flex: 70%;
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
       padding-left: 20px; }
-      .gallery .container .content:nth-of-type(4) .content-text p {
+.gallery .container .content:nth-of-type(4) .content-text p {
         width: 30%;
         padding-left: 0; }
-    .gallery .container .content:nth-of-type(4) .photo {
+.gallery .container .content:nth-of-type(4) .photo {
       flex: 30%; }
-
 .second-note .note {
   background-color: #9dacd8;
   height: 50vh;
@@ -193,12 +187,11 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 4rem; }
-  .second-note .note .lightning-img {
+.second-note .note .lightning-img {
     margin: 3rem 0; }
-    .second-note .note .lightning-img img {
+.second-note .note .lightning-img img {
       width: 3rem;
       animation: rotate 5s linear infinite; }
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg); }
@@ -206,25 +199,24 @@ body {
     transform: rotate(180deg); }
   100% {
     transform: rotate(360deg); } }
-  .second-note .note .header {
+.second-note .note .header {
     display: flex;
     align-items: center; }
-    .second-note .note .header h2 {
+.second-note .note .header h2 {
       font-family: 'Rubik Mono One', sans-serif;
       color: #343a40;
       word-spacing: -1.5rem;
       letter-spacing: -4px;
       font-size: 3rem;
       text-transform: uppercase; }
-    .second-note .note .header p {
+.second-note .note .header p {
       margin-left: 1rem;
       font-size: 2rem;
       font-family: 'Times New Roman', Times, serif; }
-  .second-note .note .notes p {
+.second-note .note .notes p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8rem;
     text-align: center; }
-
 .product-header {
   height: 100vh;
   width: 100%;
@@ -232,78 +224,76 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  .product-header .slogan {
+.product-header .slogan {
     width: 100%;
     position: absolute;
     font-family: 'Rubik Mono One', sans-serif; }
-    .product-header .slogan .main-slogan h1 {
+.product-header .slogan .main-slogan h1 {
       text-align: center;
       color: #fff;
       font-size: 8vw;
       text-transform: uppercase;
       font-weight: 400; }
-
 .product-gallery {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: space-around; }
-  .product-gallery .container {
+.product-gallery .container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; }
-    .product-gallery .container .product-img {
+.product-gallery .container .product-img {
       flex: 50%; }
-      .product-gallery .container .product-img img {
+.product-gallery .container .product-img img {
         width: 100%;
         height: 100%; }
-    .product-gallery .container .product-info {
+.product-gallery .container .product-info {
       flex: 50%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 2rem; }
-      .product-gallery .container .product-info .main-product-info {
+.product-gallery .container .product-info .main-product-info {
         margin-top: 40%; }
-        .product-gallery .container .product-info .main-product-info h1 {
+.product-gallery .container .product-info .main-product-info h1 {
           font-family: 'Rubik Mono One', sans-serif;
           color: #343a40;
           word-spacing: -1.5rem;
           letter-spacing: -2px;
           font-size: 3rem;
           text-transform: uppercase; }
-        .product-gallery .container .product-info .main-product-info p {
+.product-gallery .container .product-info .main-product-info p {
           width: 40%; }
-      .product-gallery .container .product-info .links .links-product-info {
+.product-gallery .container .product-info .links .links-product-info {
         display: flex;
         flex-direction: column;
         margin-bottom: 1rem; }
-        .product-gallery .container .product-info .links .links-product-info a {
+.product-gallery .container .product-info .links .links-product-info a {
           font-family: 'Rubik Mono One', sans-serif;
           text-decoration: none;
           text-transform: uppercase;
           font-size: 1.2rem;
           color: black; }
-      .product-gallery .container .product-info .links .shop-products button {
+.product-gallery .container .product-info .links .shop-products button {
         padding: 4px 20px;
         background: transparent;
         border: 1px solid black;
         border-radius: 1rem; }
-        .product-gallery .container .product-info .links .shop-products button a {
+.product-gallery .container .product-info .links .shop-products button a {
           text-decoration: none; }
-          .product-gallery .container .product-info .links .shop-products button a h3 {
+.product-gallery .container .product-info .links .shop-products button a h3 {
             text-transform: uppercase;
             font-size: 1vw;
             color: black; }
-          .product-gallery .container .product-info .links .shop-products button a h3::after {
+.product-gallery .container .product-info .links .shop-products button a h3::after {
             content: " >"; }
-  .product-gallery .container:nth-of-type(2) {
+.product-gallery .container:nth-of-type(2) {
     flex-direction: row-reverse; }
-
 .product-jumbotron {
   height: 90vh;
   width: 100%;
-  background: url("../../images/product-multi.png");
+  background: url("product-multi.2acf8bbf.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -313,147 +303,143 @@ body {
   align-items: flex-end;
   padding: 2rem;
   color: white; }
-  .product-jumbotron .product-location {
+.product-jumbotron .product-location {
     display: flex;
     flex-direction: column;
     align-items: flex-end; }
-    .product-jumbotron .product-location img {
+.product-jumbotron .product-location img {
       width: 20px; }
-    .product-jumbotron .product-location p {
+.product-jumbotron .product-location p {
       font-family: 'Times New Roman', Times, serif;
       font-size: 1.5rem;
       font-weight: 100; }
-  .product-jumbotron .product-ingredients .ingredient {
+.product-jumbotron .product-ingredients .ingredient {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: 1rem; }
-    .product-jumbotron .product-ingredients .ingredient .blink-image img {
+.product-jumbotron .product-ingredients .ingredient .blink-image img {
       width: 10px;
       animation: blink 1s linear infinite; }
-
 @keyframes blink {
   from {
     width: 10px; }
   to {
     width: 6px; } }
-    .product-jumbotron .product-ingredients .ingredient h2 {
+.product-jumbotron .product-ingredients .ingredient h2 {
       font-family: 'Rubik Mono One', sans-serif;
       font-weight: 100;
       font-size: 1.4rem;
       text-transform: uppercase; }
-
 .shop-products-gallery {
   height: 120vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 2rem; }
-  .shop-products-gallery .headers h1 {
+.shop-products-gallery .headers h1 {
     font-family: 'Rubik Mono One', sans-serif;
     color: #343a40;
     word-spacing: -1.5rem;
     letter-spacing: -2px;
     font-size: 3rem;
     text-transform: uppercase; }
-  .shop-products-gallery .headers .sub-header {
+.shop-products-gallery .headers .sub-header {
     display: flex;
     justify-content: space-between;
     width: 100%; }
-    .shop-products-gallery .headers .sub-header h2 {
+.shop-products-gallery .headers .sub-header h2 {
       font-family: 'Times New Roman', Times, serif;
       font-size: 2rem; }
-    .shop-products-gallery .headers .sub-header button {
+.shop-products-gallery .headers .sub-header button {
       padding: 4px 20px;
       background: transparent;
       border: 1px solid black;
       border-radius: 1rem; }
-      .shop-products-gallery .headers .sub-header button a {
+.shop-products-gallery .headers .sub-header button a {
         text-decoration: none; }
-        .shop-products-gallery .headers .sub-header button a h3 {
+.shop-products-gallery .headers .sub-header button a h3 {
           text-transform: uppercase;
           font-size: 1vw;
           color: black; }
-        .shop-products-gallery .headers .sub-header button a h3::after {
+.shop-products-gallery .headers .sub-header button a h3::after {
           content: " >"; }
-  .shop-products-gallery .products {
+.shop-products-gallery .products {
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap; }
-    .shop-products-gallery .products .container {
+.shop-products-gallery .products .container {
       flex: 33.3%; }
-      .shop-products-gallery .products .container video {
+.shop-products-gallery .products .container video {
         width: 100%; }
-      .shop-products-gallery .products .container h2 {
+.shop-products-gallery .products .container h2 {
         font-family: 'Rubik Mono One', sans-serif;
         color: #343a40;
         word-spacing: -0.5rem;
         letter-spacing: -1px;
         font-size: 2rem;
         text-transform: uppercase; }
-      .shop-products-gallery .products .container h3 {
+.shop-products-gallery .products .container h3 {
         font-family: 'Rubik Mono One', sans-serif;
         color: #343a40;
         word-spacing: -0.5rem;
         letter-spacing: -1px;
         font-size: 1.2rem;
         text-transform: uppercase; }
-      .shop-products-gallery .products .container button {
+.shop-products-gallery .products .container button {
         padding: 4px 20px;
         background: transparent;
         border: 1px solid black;
         border-radius: 1rem; }
-        .shop-products-gallery .products .container button a {
+.shop-products-gallery .products .container button a {
           text-decoration: none; }
-          .shop-products-gallery .products .container button a h3 {
+.shop-products-gallery .products .container button a h3 {
             text-transform: uppercase;
             font-size: 1vw;
             color: black; }
-          .shop-products-gallery .products .container button a h3::after {
+.shop-products-gallery .products .container button a h3::after {
             content: " >"; }
-
 .contact-info {
   background-color: #e7aacd;
   height: 120vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap; }
-  .contact-info .container {
+.contact-info .container {
     flex: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    .contact-info .container h1 {
+.contact-info .container h1 {
       font-family: 'Rubik Mono One', sans-serif;
       color: #343a40;
       word-spacing: -1.5rem;
       letter-spacing: -2px;
       font-size: 3rem;
       text-transform: uppercase; }
-    .contact-info .container p {
+.contact-info .container p {
       font-family: 'Times New Roman', Times, serif;
       font-size: 1.5rem; }
-    .contact-info .container button {
+.contact-info .container button {
       margin-top: 2rem;
       padding: 4px 20px;
       background: transparent;
       border: 1px solid black;
       border-radius: 1rem; }
-      .contact-info .container button a {
+.contact-info .container button a {
         text-decoration: none; }
-        .contact-info .container button a h3 {
+.contact-info .container button a h3 {
           text-transform: uppercase;
           font-size: 1vw;
           color: black; }
-        .contact-info .container button a h3::after {
+.contact-info .container button a h3::after {
           content: " >"; }
-  .contact-info .container:nth-of-type(1) {
+.contact-info .container:nth-of-type(1) {
     flex: 100%;
     border-bottom: 1px solid black; }
-  .contact-info .container:nth-of-type(2) {
+.contact-info .container:nth-of-type(2) {
     border-right: 1px solid black; }
-
 .footer {
   padding: 2rem;
   height: 30vh;
@@ -462,44 +448,46 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
-  .footer .footer-links {
+.footer .footer-links {
     flex: 50%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between; }
-    .footer .footer-links .link-group img {
+.footer .footer-links .link-group img {
       width: 1.3rem; }
-    .footer .footer-links .link-group h6 {
+.footer .footer-links .link-group h6 {
       font-weight: bold; }
-    .footer .footer-links .link-group .links {
+.footer .footer-links .link-group .links {
       display: flex;
       flex-direction: column; }
-      .footer .footer-links .link-group .links a {
+.footer .footer-links .link-group .links a {
         font-size: 0.8rem;
         text-decoration: none;
         color: black; }
-  .footer .statement {
+.footer .statement {
     flex: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-end; }
-    .footer .statement img {
+.footer .statement img {
       width: 1.3rem;
       margin-bottom: 1rem; }
-    .footer .statement p {
+.footer .statement p {
       font-size: 0.8rem;
       text-align: right;
       width: 30%; }
-  .footer .copyright {
+.footer .copyright {
     flex: 50%;
     font-size: 0.7rem; }
-  .footer .cookies {
+.footer .cookies {
     flex: 50%;
     text-align: right; }
-    .footer .cookies a {
+.footer .cookies a {
       text-decoration: none;
       text-transform: uppercase;
       color: black;
       font-size: 0.7rem; }
+
+/*# sourceMappingURL=index.1d765c85.css.map */
