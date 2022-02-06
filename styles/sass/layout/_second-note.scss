@@ -11,7 +11,19 @@
         .lightning-img {
             margin: 3rem 0;
             img {
-                width: 2.5rem;
+                width: 3rem;
+                animation: rotate 5s linear infinite;
+            }
+            @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(180deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
             }
         }
         .header {

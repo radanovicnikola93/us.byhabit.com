@@ -158,7 +158,16 @@ body {
   .second-note .note .lightning-img {
     margin: 3rem 0; }
     .second-note .note .lightning-img img {
-      width: 2.5rem; }
+      width: 3rem;
+      animation: rotate 5s linear infinite; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
   .second-note .note .header {
     display: flex;
     align-items: center; }
