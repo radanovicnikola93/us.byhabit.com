@@ -30,8 +30,19 @@
             flex-direction: column;
             align-items: flex-end;
             margin-bottom: 1rem;
-            img {
-                width: 10px;
+            .blink-image {
+                img {
+                    width: 10px;
+                    animation: blink 1s linear infinite;
+                }
+            }
+            @keyframes blink {
+                from {
+                    width: 10px;
+                }
+                to {
+                    width: 6px;
+                }
             }
             h2 {
                 font-family: 'Rubik Mono One',

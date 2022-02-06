@@ -290,8 +290,15 @@ body {
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: 1rem; }
-    .product-jumbotron .product-ingredients .ingredient img {
-      width: 10px; }
+    .product-jumbotron .product-ingredients .ingredient .blink-image img {
+      width: 10px;
+      animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  from {
+    width: 10px; }
+  to {
+    width: 6px; } }
     .product-jumbotron .product-ingredients .ingredient h2 {
       font-family: 'Rubik Mono One', sans-serif;
       font-weight: 100;
