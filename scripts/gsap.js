@@ -48,6 +48,10 @@ gsap.from('#shop-products-gallery-video-1', {opacity: 0, duration: 0.7, scale: 1
 gsap.from('#shop-products-gallery-video-2', {opacity: 0, duration: 0.7, scale: 1.1})
 gsap.from('#shop-products-gallery-video-3', {opacity: 0, duration: 0.7, scale: 1.1})
 
+// ------------------------- CONTACT-INFO -------------------------
 timeline("#contact-info-container-1", "#contact-info-container-1", 0, 40, 0, 2);
 timeline("#contact-info-container-2", "#contact-info-container-2", 0, 40, 0, 2);
 timeline("#contact-info-container-3", "#contact-info-container-3", 0, 40, 0, 2);
+
+// ------------------------- FOOTER -------------------------
+timeline("#footer", "#footer", 0, 40, 0, 2);
