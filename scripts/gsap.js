@@ -41,3 +41,9 @@ timeline("#product-gallery-shop-products-2", "#product-gallery-shop-products-2",
 timeline("#product-gallery-main-product-3", "#product-gallery-main-product-3", 0, 0, 0, 2);
 timeline("#product-gallery-links-3", "#product-gallery-links-3", 0, 0, 0, 2);
 timeline("#product-gallery-shop-products-3", "#product-gallery-shop-products-3", 0, 0, 0, 2);
+
+// ------------------------- SHOP PRODUCTS GALLERY -------------------------
+timeline("#shop-products-gallery-headers", "#shop-products-gallery-headers", 0, 20, 0, 2);
+gsap.from('#shop-products-gallery-video-1', {opacity: 0, duration: 0.7, scale: 1.1})
+gsap.from('#shop-products-gallery-video-2', {opacity: 0, duration: 0.7, scale: 1.1})
+gsap.from('#shop-products-gallery-video-3', {opacity: 0, duration: 0.7, scale: 1.1})
