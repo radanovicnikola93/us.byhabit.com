@@ -161,7 +161,7 @@ body {
         position: absolute;
         bottom: 70%;
         right: 0;
-        width: 30%; }
+        width: 25%; }
     .gallery .container .content:nth-of-type(3) {
       position: relative; }
       .gallery .container .content:nth-of-type(3) .content-text {
@@ -170,20 +170,21 @@ body {
         flex: 70%; }
         .gallery .container .content:nth-of-type(3) .photo img {
           position: absolute;
-          bottom: -5%;
-          right: 28%;
-          width: 30%; }
-    .gallery .container .content:nth-of-type(4) .content-text {
-      flex: 70%;
+          max-width: 25%;
+          top: -30%;
+          right: 30%; }
+    .gallery .container .content:nth-of-type(4) {
       display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
-      padding-left: 20px; }
-      .gallery .container .content:nth-of-type(4) .content-text p {
-        width: 30%;
-        padding-left: 0; }
-    .gallery .container .content:nth-of-type(4) .photo {
-      flex: 30%; }
+      flex-direction: row;
+      align-items: flex-end; }
+      .gallery .container .content:nth-of-type(4) .content-text {
+        flex: 70%;
+        padding-left: 20px; }
+        .gallery .container .content:nth-of-type(4) .content-text p {
+          width: 30%;
+          padding-left: 0; }
+      .gallery .container .content:nth-of-type(4) .photo {
+        flex: 30%; }
 
 .second-note .note {
   background-color: #9dacd8;
