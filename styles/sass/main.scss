@@ -1,9 +1,12 @@
+// MIXINS + VARIABLES
 @import "./abstract/mixins";
 @import "./abstract/variables";
 
+// BASE + TYPOGRAPHY
 @import "./base/base";
 @import "./base/typography";
 
+// LAYOUTS
 @import "./layout/header";
 @import "./layout/first-note";
 @import "./layout/gallery-section";
