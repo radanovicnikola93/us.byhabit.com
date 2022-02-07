@@ -41,6 +41,12 @@ body {
 .main-nav .menus div h2::after {
         content: " >";
         transform: rotate(90deg); }
+.nav-active {
+  color: black; }
+.nav-active .logo {
+    border: 1.5px solid black; }
+.nav-active .logo div:nth-of-type(1) {
+      border-right: 1.5px solid black; }
 .page-header {
   margin-top: -4.9rem;
   width: 100%;
