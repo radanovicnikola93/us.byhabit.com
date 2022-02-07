@@ -155,7 +155,7 @@ body {
 .gallery .container .content:nth-of-type(2) .photo img {
         position: absolute;
         bottom: 70%;
-        right: 0;
+        right: 2%;
         width: 25%; }
 .gallery .container .content:nth-of-type(3) {
       position: relative; }
